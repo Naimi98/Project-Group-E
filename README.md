@@ -46,10 +46,10 @@ Firstly, the library management systems introduced by our group is to enable sys
 <h3>Objective</h3>
 
 <ol>
-  <li>1.	Give an opportunity to librarians to reduce mistakes that always happen during manual method.</li>
-  <li>2.	To build a monitoring system that is able to monitor and manage all library operations efficiently.</li>
-  <li>3.	To enter and preserve details of the various issues and keep a track on their returns.</li>
-  <li>4.	To build a system that can receive input and generate automatically output in easy way and short time.</li>
+  <li>Give an opportunity to librarians to reduce mistakes that always happen during manual method.</li>
+  <li>To build a monitoring system that is able to monitor and manage all library operations efficiently.</li>
+  <li>To enter and preserve details of the various issues and keep a track on their returns.</li>
+  <li>To build a system that can receive input and generate automatically output in easy way and short time.</li>
 </ol>
 
 Feature and functionality
