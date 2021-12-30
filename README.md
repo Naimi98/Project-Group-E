@@ -39,10 +39,6 @@ Library Management System
 
 <h3>Introduction<h3>
 
-An advanced organized library is an integral part of any educational institution. In this digital age a web-based library management system would be ideal for students who can access the library’s database on their smartphones. 
-Firstly, the introduction of library management systems by our group is to enable system administrators to keep an eye on the library department’s functioning and also enable librarians and users to maximize time and efficiency. The purpose of a library management system is to operate a library with efficiency and at reduced costs. Moreover, the system being entirely automated may streamlines all the tasks involved in operations of the library. The library management system software makes the library a smart one by organizing the books systematically by author, title, and subject. This enables users to search for books quickly and effortlessly.
-
-
 <h3>Objective</h3>
 
 <ol>
