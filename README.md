@@ -56,7 +56,7 @@ Feature and functionality
 
 <h3>Entity Relationship Diagram (ERD)</h3>
   
-![ERD](https://github.com/WebAppDev-Group-E/Project-Group-E/blob/4fc2a6831e10689d6a2b8aad9910fc35c9f67245/ERD.png)
+![ERD](https://github.com/WebAppDev-Group-E/Project-Group-E/blob/4fc2a6831e10689d6a2b8aad9910fc35c9f67245/ERD.png #gh-light-mode-only)
 
 <h3>Sequential Diagram</h3>
 
