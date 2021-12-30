@@ -1,4 +1,4 @@
-# INFO 3305 Web Application Development Section 3 Group Project - Group E
+# INFO 3305 Web Application Development Section 3 Sem 1 2021/2022 Group Project - Group E
 
 Group Members
 <table>
