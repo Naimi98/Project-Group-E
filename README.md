@@ -55,7 +55,8 @@ Feature and functionality
 ![View, controllers, routes and models]()
 
 <h3>Entity Relationship Diagram (ERD)</h3>
-![ERD](ERD.png)
+  
+![ERD](https://github.com/WebAppDev-Group-E/Project-Group-E/blob/4fc2a6831e10689d6a2b8aad9910fc35c9f67245/ERD.png)
 
 <h3>Sequential Diagram</h3>
 
