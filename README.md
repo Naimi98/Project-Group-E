@@ -1,6 +1,6 @@
 # INFO 3305 Web Application Development Section 3 Sem 1 2021/2022 Group Project - Group E
 
-Group Members
+<h3>Group Members</h3>
 <table>
   <tr>
     <th>Name</th>
@@ -37,7 +37,7 @@ Group Members
 
 Library Management System
 
-<h3>Introduction<h3>
+<h3>Introduction</h3>
 
 An advanced organized library is an integral part of any educational institution. In this digital age a web-based library management system would be ideal for students who can access the library’s database on their smartphones or any devices. 
 Firstly, the library management systems introduced by our group is to enable system administrators to keep an eye on the library department’s functioning and also enable librarians and users to maximize time and efficiency. The purpose of a library management system is to operate a library with efficiency and at reduced costs. Moreover, the system being entirely automated may streamlines all the tasks involved in operations of the library. The library management system will makes the library a smart one by organizing the books systematically by author, title, and subject. This enables users to search for books quickly and effortlessly. 
@@ -52,7 +52,7 @@ Firstly, the library management systems introduced by our group is to enable sys
   <li>To build a system that can receive input and generate automatically output in easy way and short time.</li>
 </ol>
 
-Feature and functionality
+  <h3>Feature and functionality</h3>
 
 By using library management system, the operation of borrowing and managing inventories is paperless. This system provides a user-friendly data entry with dropdown button menu, list box and checkbox in purpose to make the input entry easier to understand and use. It is also created to ensure that the library items are stored properly in order to maintain their security. This system will store all the books and members information that consist of book numbers, book titles, author names and racks to the system database. It also provides search function to help students find the book by number of books. Search function will search through the books database to look for the book and view where the book is situated.
 
@@ -61,6 +61,59 @@ By using library management system, the operation of borrowing and managing inve
     <th>Admin or Librarian Side</th>
     <th>User or Student Side</th>
   </tr>
+  <tr>
+    <td>1. Manage Book Records</td>
+    <td>1. User or Student Login Page</td>
+  </tr>
+  <tr>
+    <td>2. Manage Register User Records</td>
+    <td>2. New User or Student Registration with Email Verification</td>
+  </tr>
+  <tr>
+    <td>3. Enable or Disable Register User Login</td>
+    <td>3.Search Available Books</td>
+  </tr>
+  <tr>
+    <td>3. Enable or Disable Register User Login</td>
+    <td>3.Search Available Books</td>
+  </tr>
+  <tr>
+    <td>4.	Issue Book</td>
+    <td>4.	View Issued Book Data</td>
+  </tr>
+  <tr>
+    <td>5.	Returned Book</td>
+    <td>5.	Manage Profile</td>
+  </tr>
+  <tr>
+    <td>6.	Calculate Fine on Late Returned Book</td>
+    <td></td>
+  <tr>
+    <td>7.	Manage Category Data</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>8.	Manage Authors Data</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>9.	Manage Location Rack Data</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>10.	Dynamically Configured Library System</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>11.	Admin Login Page</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>12.	Admin Change Password</td>
+    <td></td>
+  </tr>
+  
+  
   
 <table>
 
