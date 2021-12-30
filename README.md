@@ -74,10 +74,6 @@ By using library management system, the operation of borrowing and managing inve
     <td>3.Search Available Books</td>
   </tr>
   <tr>
-    <td>3. Enable or Disable Register User Login</td>
-    <td>3.Search Available Books</td>
-  </tr>
-  <tr>
     <td>4.	Issue Book</td>
     <td>4.	View Issued Book Data</td>
   </tr>
