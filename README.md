@@ -56,22 +56,30 @@ Feature and functionality
 
 By using library management system, the operation of borrowing and managing inventories is paperless. This system provides a user-friendly data entry with dropdown button menu, list box and checkbox in purpose to make the input entry easier to understand and use. It is also created to ensure that the library items are stored properly in order to maintain their security. This system will store all the books and members information that consist of book numbers, book titles, author names and racks to the system database. It also provides search function to help students find the book by number of books. Search function will search through the books database to look for the book and view where the book is situated.
 
-User or Student Side                                              Admin or Librarian Side                                         
-                                                                  
-1.	User or Student Login Page                                    1.	Manage Book Records
-2.	New User or Student Registration with Email Verification      2.	Manage Register User Records
-3.	Search Available Books                                        3.	Enable or Disable Register User Login
-4.	View Issued Book Data                                         4.	Issue Book
-5.	Manage Profile                                                5.	Returned Book
-                                                                  6.	Calculate Fine on Late Returned Book
-                                                                  7.	Manage Category Data
-                                                                  8.	Manage Authors Data
-                                                                  9.	Manage Location Rack Data
-                                                                  10.	Dynamically Configured Library System
-                                                                  11.	Admin Login Page
-                                                                  12.	Admin Change Password
+Admin or Librarian Side
 
+1.	Manage Book Records
+2.	Manage Register User Records
+3.	Enable or Disable Register User Login
+4.	Issue Book
+5.	Returned Book
+6.	Calculate Fine on Late Returned Book
+7.	Manage Category Data
+8.	Manage Authors Data
+9.	Manage Location Rack Data
+10.	Dynamically Configured Library System
+11.	Admin Login Page
+12.	Admin Change Password
 
+User or Student Side
+
+ 1.	User or Student Login Page
+2.	New User or Student Registration with Email Verification
+3.	Search Available Books
+4.	View Issued Book Data
+5.	Manage Profile
+
+  
 <h3>View, controllers, routes and models</h3>
 ![View, controllers, routes and models]()
 
