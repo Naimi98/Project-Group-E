@@ -112,4 +112,7 @@ class StudentController extends Controller
     {
         //
     }
+    
+        public function view() {
+        return view('User.list_book');
 }
