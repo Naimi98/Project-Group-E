@@ -32,6 +32,14 @@ Route::group(['middleware' => ['auth', 'role:user']], function() {
     Route::get('/list_book', 'App\Http\Controllers\StudentController@view')->name('list_book');
 });
 
+Route::group(['middleware' => ['auth', 'role:user']], function() {
+    Route::get('/create_user', 'App\Http\Controllers\StudentController@create')->name('create_user');
+});
+
+Route::group(['middleware' => ['auth', 'role:user']], function() {
+    Route::get('/view_user', 'App\Http\Controllers\StudentController@view')->name('view_user');
+});
+
 // Route::get('/book_create', function () {
 //     return view('librarian.book_create');
 // });
