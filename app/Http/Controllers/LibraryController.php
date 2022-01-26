@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class LibraryController extends Controller
 {
     /**Display a listing of the resource
-     * 
+     *
      * @return \Illuminate\Http\Response
      */
 
@@ -19,7 +19,7 @@ class LibraryController extends Controller
 
     /**
      * Show the form for creating a new resource
-     * 
+     *
      * @return \Illuminate\Http\Response
      */
     public function create()
@@ -27,10 +27,10 @@ class LibraryController extends Controller
         $libraries = Library::all;
         return view('library',['libraries'->$libraries, 'layout'->'create']);
     }
-    
+
     /**
      * Store a newly created resource in storage
-     * 
+     *
      * @param \Illuminate\Http\Request $request
      * return \Iluminate\Http\Response
      */
@@ -51,7 +51,7 @@ class LibraryController extends Controller
 
     /**
      * Display the specified resource
-     * 
+     *
      * @param int $id
      * @return \Illuminate\Http\Response
      */
@@ -64,7 +64,7 @@ class LibraryController extends Controller
 
     /**
      * Show the form for editing the specified resource
-     * 
+     *
      * @param int $id
      * @return \Illuminate\Http\Response
      */
@@ -77,7 +77,7 @@ class LibraryController extends Controller
 
     /**
      * Update the specified resource in storage
-     * 
+     *
      * @param \Illuminate\Http\Request $request
      * @param int $id
      * @return \Illuminate\Http\Response
@@ -96,7 +96,7 @@ class LibraryController extends Controller
         $library->save();
         return redirect('/');
     }
-    
+
     /**
      * Remove the specified resource from storage.
      *
