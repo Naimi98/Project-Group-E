@@ -111,5 +111,42 @@ By using library management system, the operation of borrowing and managing inve
 
  <h3>References</h3>
   
-Free Sequence Diagram Examples and Step by Step Tutorials.
+1. Free Sequence Diagram Examples and Step by Step Tutorials.
 https://gitmind.com/sequence-diagram-example.html
+
+2. Laravel Starter Kit.
+https://laravel.com/docs/8.x/starter-kits
+    
+3. Laratrust. Laravel role-based access control package.
+https://laratrust.santigarcor.me/
+
+    
+<h3>Project system preview</h3>
+    
+<h4>Front Page</h4>
+
+    ![Front Page](https://github.com/WebAppDev-Group-E/Project-Group-E/blob/4358978b673759c2d6b19dab28411d52dfa64f98/Images/Front%20Page.jpg)
+    Librarian and student may register and login in this page.
+
+<h4>Librarian Interface</h4>
+    ![Librarian Dashboard](https://github.com/WebAppDev-Group-E/Project-Group-E/blob/4358978b673759c2d6b19dab28411d52dfa64f98/Images/Librarian%20Dashboard.jpg)
+    Librarian will see three menu which is Dashboard, List All Book and Add New Book if login.
+    
+    ![List All Book](https://github.com/WebAppDev-Group-E/Project-Group-E/blob/4358978b673759c2d6b19dab28411d52dfa64f98/Images/Librarian%20List%20Book.jpg)
+    Librarian can view all the available book in the library.
+    
+    ![Add Book](https://github.com/WebAppDev-Group-E/Project-Group-E/blob/4358978b673759c2d6b19dab28411d52dfa64f98/Images/Libarian%20Add%20Book.jpg)
+    Librarian can add more book in the database in this page.
+
+<h4>Student Interface</h4>
+    ![Student Dashboard](https://github.com/WebAppDev-Group-E/Project-Group-E/blob/4358978b673759c2d6b19dab28411d52dfa64f98/Images/Student%20Dashboard.jpg)
+    Student will see three menu which is Dashboard, Available Book and Book Borrowed if login.
+    
+    ![List Book](https://github.com/WebAppDev-Group-E/Project-Group-E/blob/4358978b673759c2d6b19dab28411d52dfa64f98/Images/Student%20List%20Book.jpg)
+    Student can view all available books in the library in this page.<br>
+
+    
+<h3>Challenge or Difficulties</h3>
+    1. Understanding the shortcut code used by the laravel starter kit such as laravel breeze.<br>
+    2. Managing the View for different users.<br>
+    
