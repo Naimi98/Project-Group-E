@@ -28,6 +28,9 @@ Route::group(['middleware' => ['auth', 'role:librarian']], function() {
 Route::group(['middleware' => ['auth', 'role:librarian']], function() {
     Route::get('/view_book', 'App\Http\Controllers\LibrarianController@view')->name('view_book');
 });
+Route::group(['middleware' => ['auth', 'role:user']], function() {
+    Route::get('/list_book', 'App\Http\Controllers\StudentController@view')->name('list_book');
+});
 
 // Route::get('/book_create', function () {
 //     return view('librarian.book_create');
@@ -38,12 +41,6 @@ Route::group(['middleware' => ['auth', 'role:librarian']], function() {
 // });
 
 Route::post('\store','app\Http\Controllers\BookController@store');
-
-
-// User profile
-Route::group(['middleware' => ['auth']], function() {
-    Route::get('/myprofile', 'App\Http\Controllers\DashboardController@myprofile')->name('dashboard.myprofile');
-});
 
 require __DIR__.'/auth.php';
 
