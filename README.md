@@ -54,68 +54,52 @@ Firstly, the library management systems introduced by our group is to enable sys
 
   <h3>Feature and functionality</h3>
 
-By using library management system, the operation of borrowing and managing inventories is paperless. This system provides a user-friendly data entry with dropdown button menu, list box and checkbox in purpose to make the input entry easier to understand and use. It is also created to ensure that the library items are stored properly in order to maintain their security. This system will store all the books and members information that consist of book numbers, book titles, author names and racks to the system database. It also provides search function to help students find the book by number of books. Search function will search through the books database to look for the book and view where the book is situated. Under this Library Management System, we also can also track number of pending of not returned book after due date and how many fines has been collected on return book due date.
+By using library management system, the operation of borrowing and managing inventories is paperless. This system provides a user-friendly data entry with dropdown button menu, list box and checkbox in purpose to make the input entry easier to understand and use. It is also created to ensure that the library items are stored properly in order to maintain their security. This system will store all the books and members information that consist of book numbers, book titles, author names and racks to the system database. It also provides search function to help students find the book by number of books. Search function will search through the books database to look for the book and view where the book is situated.
 
 <table>
   <tr>
-    <th>Admin or Librarian Side</th>
-    <th>User or Student Side</th>
+    <th>Librarian Side</th>
+    <th>Student Side</th>
   </tr>
   <tr>
-    <td>1. Manage Book Records</td>
-    <td>1. User or Student Login Page</td>
+    <td>Manage Book Records</td>
+    <td>Student Login Page</td>
   </tr>
   <tr>
-    <td>2. Manage Register User Records</td>
-    <td>2. New User or Student Registration with Email Verification</td>
+    <td>Manage Register User Records</td>
+    <td>View Borrowed Book Data</td>
   </tr>
   <tr>
-    <td>3. Enable or Disable Register User Login</td>
-    <td>3.Search Available Books</td>
+    <td>New Student Registration</td>
+    <td>View Available Books</td>
   </tr>
   <tr>
-    <td>4.	Issue Book</td>
-    <td>4.	View Issued Book Data</td>
-  </tr>
-  <tr>
-    <td>5.	Returned Book</td>
-    <td>5.	Manage Profile</td>
-  </tr>
-  <tr>
-    <td>6.	Calculate Fine on Late Returned Book</td>
-    <td></td>
-  <tr>
-    <td>7.	Manage Category Data</td>
+    <td>Manage Borrow Book</td>
     <td></td>
   </tr>
   <tr>
-    <td>8.	Manage Authors Data</td>
+    <td>Returned Book</td>
+    <td></td>
+  </tr>
+    <td>Manage Category Data</td>
     <td></td>
   </tr>
   <tr>
-    <td>9.	Manage Location Rack Data</td>
+    <td>Manage Authors Data</td>
     <td></td>
   </tr>
   <tr>
-    <td>10.	Dynamically Configured Library System</td>
+    <td>Manage Location Rack Data</td>
     <td></td>
   </tr>
-  <tr>
-    <td>11.	Admin Login Page</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>12.	Admin Change Password</td>
-    <td></td>
-  </tr>
-  
- 
-  
 <table>
 
-  
+
+<!---
 <h3>View, controllers, routes and models</h3>
 ![View, controllers, routes and models]()
+--->
+
 
 <h3>Entity Relationship Diagram (ERD)</h3>
   
@@ -125,7 +109,7 @@ By using library management system, the operation of borrowing and managing inve
 
 ![Sequential Diagram](https://github.com/WebAppDev-Group-E/Project-Group-E/blob/f56d52355be03920e2a054d6cc4672bafcb40686/Sequence%20Diagram.drawio.png)
 
-  <h3>References</h3>
+ <h3>References</h3>
   
 Free Sequence Diagram Examples and Step by Step Tutorials.
 https://gitmind.com/sequence-diagram-example.html
