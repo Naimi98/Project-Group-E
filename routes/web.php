@@ -51,16 +51,3 @@ Route::group(['middleware' => ['auth', 'role:user']], function() {
 Route::post('\store','app\Http\Controllers\BookController@store');
 
 require __DIR__.'/auth.php';
-
-// Student
-Route::get('/', function () {
-    //return view('welcome');
-    return view('showStudent');
-});
-
-Route::get('/',[StudentController::class, 'index']);
-Route::get('/edit/{id}',[StudentController::class, 'edit']);
-Route::get('/show/{id}',[StudentController::class, 'show']);
-Route::get('/create',[StudentController::class, 'create']);
-Route::post('/store',[StudentController::class, 'store']);
-Route::post('/update/{id}',[StudentController::class, 'update']);
