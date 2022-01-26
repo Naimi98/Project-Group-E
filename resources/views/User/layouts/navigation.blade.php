@@ -17,11 +17,17 @@
                     </x-nav-link>
                 </div>
 
-                {{-- <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link :href="route('dashboard.myprofile')" :active="request()->routeIs('dashboard.myprofile')">
-                        {{ __('My Profile') }}
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="route('list_book')" :active="request()->routeIs('list_book')">
+                        {{ __('Available Books') }}
                     </x-nav-link>
-                </div> --}}
+                </div>
+
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="route('list_book')" :active="request()->routeIs('list_book')">
+                        {{ __('Book Borrowed') }}
+                    </x-nav-link>
+                </div>
 
             </div>
 
