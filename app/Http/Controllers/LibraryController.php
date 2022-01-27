@@ -37,8 +37,8 @@ class LibraryController extends Controller
     public function store(Request $request)
     {
         $library = new Library();
-        $library->bookname - $request->input('book name');
-        $library->pubname = $request->input('publisher name');
+        $library->bookname - $request->input('bookname');
+        $library->pubname = $request->input('pubname');
         $library->location - $request->input('location');
         $library->category - $request->input('category');
         $library->quantity = $request->input('quantity');
@@ -82,8 +82,8 @@ class LibraryController extends Controller
     public function update(Request $request, $id)
     {
         $library = Library::find($id);
-        $library->bookname - $request->input('book name');
-        $library->pubname = $request->input('publisher name');
+        $library->bookname - $request->input('bookname');
+        $library->pubname = $request->input('pubname');
         $library->location - $request->input('location');
         $library->category - $request->input('category');
         $library->quantity = $request->input('quantity');
