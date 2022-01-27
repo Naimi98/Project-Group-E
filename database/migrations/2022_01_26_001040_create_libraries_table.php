@@ -16,7 +16,7 @@ class CreateLibrariesTable extends Migration
         Schema::create('libraries', function (Blueprint $table) {
             $table->id();
             $table->string('bookname');
-            $table->string('pubname');
+            $table->string('publisher');
             $table->string('location');
             $table->string('category');
             $table->string('quantity');
