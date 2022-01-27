@@ -48,6 +48,10 @@ Route::group(['middleware' => ['auth', 'role:user']], function() {
 //     return view('librarian.book_view');
 // });
 
+// Route::get('/book_view', function () {
+//     return view('librarian.library');
+// });
+
 Route::post('\store','app\Http\Controllers\BookController@store');
 
 require __DIR__.'/auth.php';
