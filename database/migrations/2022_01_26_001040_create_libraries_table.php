@@ -15,14 +15,11 @@ class CreateLibrariesTable extends Migration
     {
         Schema::create('libraries', function (Blueprint $table) {
             $table->id();
+            $table->string('bookname');
+            $table->string('pubname');
+            $table->string('location');
             $table->string('category');
-            $table->string('title');
-            $table->string('author');
-            $table->string('publisher');
-            $table->string('isbn');
-            $table->string('rack');
-            $table->string('quality');
-            $table->integer('quantity');
+            $table->string('quantity');
             $table->timestamps();
         });
     }
