@@ -37,14 +37,11 @@ class LibraryController extends Controller
     public function store(Request $request)
     {
         $library = new Library();
-        $library->code - $request->input('code');
+        $library->bookname - $request->input('book name');
+        $library->pubname = $request->input('publisher name');
+        $library->location - $request->input('location');
         $library->category - $request->input('category');
-        $library->title = $request->input('title');
-        $library->author - $request->('author');
-        $library->publisher - $request->input('publisher');
-        $library->isbn = $request->input('isbn');
-        $library->rack = $request->input('rack');
-        $library->quantity - $request->input('quantity');
+        $library->quantity = $request->input('quantity');
         $library->save();
         return redirect('/');
     }
@@ -85,14 +82,11 @@ class LibraryController extends Controller
     public function update(Request $request, $id)
     {
         $library = Library::find($id);
-        $library->code - $request->input('code');
+        $library->bookname - $request->input('book name');
+        $library->pubname = $request->input('publisher name');
+        $library->location - $request->input('location');
         $library->category - $request->input('category');
-        $library->title = $request->input('title');
-        $library->author - $request->('author');
-        $library->publisher - $request->input('publisher');
-        $library->isbn = $request->input('isbn');
-        $library->rack = $request->input('rack');
-        $library->quantity - $request->input('quantity');
+        $library->quantity = $request->input('quantity');
         $library->save();
         return redirect('/');
     }
