@@ -38,7 +38,7 @@ class LibraryController extends Controller
     {
         $library = new Library();
         $library->bookname - $request->input('bookname');
-        $library->pubname = $request->input('pubname');
+        $library->publisher = $request->input('publisher');
         $library->location - $request->input('location');
         $library->category - $request->input('category');
         $library->quantity = $request->input('quantity');
@@ -83,7 +83,7 @@ class LibraryController extends Controller
     {
         $library = Library::find($id);
         $library->bookname - $request->input('bookname');
-        $library->pubname = $request->input('pubname');
+        $library->publisher = $request->input('publisher');
         $library->location - $request->input('location');
         $library->category - $request->input('category');
         $library->quantity = $request->input('quantity');
